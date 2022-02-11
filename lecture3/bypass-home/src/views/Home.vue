@@ -7,16 +7,6 @@
     <More page="/lectures">
     <TitleMore titlemore="activities">
     <More page="/Activity/index">
-    <div>
-      <router-link to="/members">More</router-link>
-    </div>
-    <MemberList :list="members" />
-    <div>
-      <span>Lectures</span>
-      <router-link to="/lectures">More</router-link>
-    </div>
-    <LectureList :list="lectures" />
-    <div>activities</div>
     <div>footer</div>
   </div>
 </template>
