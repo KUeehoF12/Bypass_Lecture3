@@ -1,0 +1,22 @@
+2022/2/5での授業内容：
+・一つプロジェクトを企画する
+・そのプロジェクトに合わせたvueプロジェクトをセットアップする
+・必要な画面のページを作成する
+・各ページの中身をざっくり書いておく(Javascript/scssなども使ってみる)
+
+まず、@vue/cliをグローバルでインストールします。
+npm install -g @vue/cli
+
+次は、プロジェクトを作成したフォルダーで、vue create hello-world　コマンドを実行します。
+🌟：プロジェクトを作成する時、manualを選んで、router, vuexなどを選択してインストールする
+hello-worldはプロジェクトフォルダーの名前になり、その名前でフォルダーが作成されます。
+Visual studio codeでhello-worldを開いて、作業開始すれば大丈夫です。
+
+また、一応、vue upgrade --nextを実行して、パッケージをアップグレードしておきます。
+
+最後に、npm run devで開始します。
+
+参考：
+vue 3 router: https://www.vuemastery.com/blog/vue-router-a-tutorial-for-vue-3/
+
+vuex: https://serversideup.net/beginning-vuex-4-with-vue-3/
